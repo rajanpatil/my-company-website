@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Company Website</title>
+
+    <!-- load jquery -->
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#clickme").click(function(){
+            $("#message").html("hello world");
+        });
+    });
+</script>
+<body>
+<div align="center">
+    <label>This is simple company website.</label>
+    <div id="message"></div>
+    <input id="clickme" type="button" value="Click Me"/>
+</div>
+</body>
+</html>
