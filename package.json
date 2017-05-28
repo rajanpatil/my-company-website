@@ -1,0 +1,25 @@
+{
+  "name": "my-company-website",
+  "version": "1.0.0",
+  "description": "This is simple company website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajanpatil/my-company-website.git"
+  },
+  "keywords": [
+    "my-company-website"
+  ],
+  "author": "Rajan Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajanpatil/my-company-website/issues"
+  },
+  "homepage": "https://github.com/rajanpatil/my-company-website#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
