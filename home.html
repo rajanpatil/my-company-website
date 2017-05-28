@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <title>My Company Website</title>
 
-    <!-- load jquery -->
-    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- adding viewport for proper rendering on differnt type of devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- load javascript frameworks -->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <script type="text/javascript">
     $(document).ready(function(){
@@ -15,10 +22,16 @@
     });
 </script>
 <body>
-<div align="center">
-    <label>This is simple company website.</label>
-    <div id="message"></div>
-    <input id="clickme" type="button" value="Click Me"/>
+<div class="row" align="center">
+    <div class="col-sm-12">
+        <label>This is simple company website.</label>
+    </div>
+    <div class="col-sm-12">
+        <div id="message"></div>
+    </div>
+    <div class="col-sm-12">
+        <input id="clickme" class="btn btn-primary" type="button" value="Click Me"/>
+    </div>
 </div>
 </body>
 </html>

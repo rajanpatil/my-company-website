@@ -8,3 +8,7 @@
 * gulp
 * gulp-webserver
 * jquery
+* bootstrap
+
+### Start application with following command:
+> gulp run
